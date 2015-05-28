@@ -7,7 +7,7 @@ set :repo_url, 'https://github.com/joseeurquidi/blogss.git'
 
 # describe the rbenv environment we are deploying into
 set :rbenv_type, :user
-set :rbenv_ruby, '2.2.0'
+set :rbenv_ruby, '2.2.0p0'
 set :rbenv_prefix, "RBENV_ROOT=#{fetch(:rbenv_path)} RBENV_VERSION=#{fetch(:rbenv_ruby)} #{fetch(:rbenv_path)}/bin/rbenv exec"
 set :rbenv_map_bins, %w{rake gem bundle ruby rails}
 
