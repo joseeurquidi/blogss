@@ -3,7 +3,7 @@ lock '3.4.0'
 
 # application name and the github repository
 set :application, 'blogss'
-set :repo_url, 'git@github.com:joseeurquidi/blogss.git'
+set :repo_url, 'https://github.com/joseeurquidi/blogss.git'
 
 # describe the rbenv environment we are deploying into
 set :rbenv_type, :user
